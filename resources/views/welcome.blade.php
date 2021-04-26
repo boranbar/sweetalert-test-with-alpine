@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @livewireStyles
-    <link href="{{asset('css/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/sweetalert/sweetalert2.min.css')}}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Sweetalert with Alpine inside a Livewire component</title>
 </head>
 <body>
@@ -16,9 +15,7 @@
 
 
 @livewireScripts
-<script src="{{asset('js/alpine/alpine.min.js')}}" defer></script>
-<script src="{{asset('js/sweetalert/sweetalert2.all.min.js')}}"></script>
-<script src="{{asset('js/bootstrap/bootstrap.bundle.min.js')}}"></script>
+<script src="{{ mix('js/app.js') }}" defer></script>
 @stack('scripts')
 </body>
 </html>

@@ -31,8 +31,8 @@
                             <td>
                                 <button type="button" class="btn btn-secondary">Edit</button>
                             </td>
-                            <td wire:key="{{ $user->id }}" x-on:click.prevent="areYouSure({{$user->id}})">
-                                <button type="button" class="btn btn-danger">Delete</button>
+                            <td>
+                                <button wire:key="{{ $user->id }}" x-on:click.prevent="areYouSure({{$user->id}})" type="button" class="btn btn-danger">Delete</button>
                             </td>
                         </tr>
                     @empty
