@@ -44,10 +44,8 @@
                 </table>
             </div>
             <div class="card-footer">
-                <div class="row">
-                    <div class="col-sm-12">
+                <div class="d-flex justify-content-center mt-2">
                         {{ $users->links() }}
-                    </div>
                 </div>
             </div>
         </div>
