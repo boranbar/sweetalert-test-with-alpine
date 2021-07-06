@@ -14,6 +14,7 @@
 - Run composer install
 - Run php artisan key:generate
 - Run php artisan migrate --seed (it has some seeded data for your testing)
+- Run npm install & npm run dev.
 - That's it: launch the main URL.
 
 ## About Laravel
